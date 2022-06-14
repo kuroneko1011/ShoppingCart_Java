@@ -1,0 +1,103 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Salsa', cursive;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.header {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    margin-left: 50px;
+}
+
+.logout-part {
+    display: flex;
+}
+
+.logout-link, .login-link {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #6667AB;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;    
+}
+
+.no-cart-container{
+    display: flex;
+    justify-content: center;
+}
+.no-cart {
+    width: 500px;
+    height: 500px;
+}
+
+.shopping-link {
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-link {
+    font-size: 30px; 
+    margin-top: 15px;
+}
+
+.shopping-link a {
+    margin-left: 10px;
+}
+
+.not-empty-cart {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    width: 600px;
+    height: 600px;
+}
+
+.cart {
+    margin-top: 100px;
+    margin-left: 50vw;;
+}
+
+.title {
+    color: #6667AB;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-link {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: #6667AB;
+    color: white;
+}
+
+th {
+    padding: 10px;
+}
+
+.require-login {
+    margin-left: 50vw;
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center;*/
+    align-items: center;
+}

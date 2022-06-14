@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 11, 2022, 5:54:06 AM
+    Author     : Nhan
+*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Salsa', cursive;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.header {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+.nav-bar a {
+    margin-left: 50px;
+}
+
+.logout-part {
+    display: flex;
+}
+
+.logout-link, .login-link {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #6667AB;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;    
+    box-shadow: 4px 4px 5px #00000040;
+}
+
+img {
+    position: absolute;
+    left: 50vw;
+    top: 20vh;
+}
+
+.main-body {
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.button-part {
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-part input {
+    text-decoration: none;
+    background-color: white;
+    color: #6667AB;
+    padding: 5px;
+    border-radius: 10px;  
+    cursor: pointer;
+    box-shadow: 4px 4px 5px #00000040;
+}
+
+select {
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.form {
+    font-size: 16px;
+}
+
+.mesg {
+    position: absolute;
+    top: 70vh;
+    left: 4vw;
+    font-size: 30px;
+}
